@@ -10,7 +10,7 @@ const swaggerOptions = {
     definition: {
         openapi: '3.0.0',
         info: { title: 'Todo API', version: '1.0.0' },
-        servers: [{ url: '/api', description: '透過 Nginx (Port 80)' }]
+        servers: [{ url: '/api', description: '' }]
     },
     apis: ['./index.js'],
 };
